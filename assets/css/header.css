@@ -1,0 +1,51 @@
+.navBar{
+    height: 48px;
+    padding: 0 48px;
+    background-color: #17d1b2dd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* These styling are for anchor tag in navBar */
+.nameOfApp a{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+/* for the name of users */
+.nameOfUser{
+    font-size: 24px;
+    color: white;
+}
+
+/* Thesse styling are for logOut, button which is present on the navBar */
+.logOut a{
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.noUser ul{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.noUser li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 48px;
+}
+
+.noUser li a{
+    text-decoration: none;
+    color: black;
+}
+.logOut small{
+    font-size: 20px;
+}
